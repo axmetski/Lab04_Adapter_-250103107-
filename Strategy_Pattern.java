@@ -5,21 +5,21 @@ interface MovementStrategy {
 class Walking implements MovementStrategy {
     @Override
     public String move() {
-        return "Moving at 5 km/h";
+        return "Walking at 5 km/h";
     }
 }
 
 class Skateboarding implements MovementStrategy {
     @Override
     public String move() {
-        return "Moving at 15 km/h";
+        return "Skateboarding at 15 km/h";
     }
 }
 
 class Jetpack implements MovementStrategy {
     @Override
     public String move() {
-        return "Moving at 60 km/h";
+        return "Jetpack at 60 km/h";
     }
 }
 
